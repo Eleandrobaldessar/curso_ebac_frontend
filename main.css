@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tektur', sans-serif;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    height: 80px;
+}
+
+header img{
+    height: 40px;
+}
+
+header h1 {
+    margin-left: 40px;
+}
+
+header .container li {
+    font-size: 13px;
+    display: inline;
+    padding: 18px;
+}
+
+.container li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container,
+.articles{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    margin: 10px 10px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 200px;
+    margin-bottom: 8px;
+    width: 100%;
+    object-fit: cover; /* Evita que a imagem distorça */
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article p a {
+    text-decoration: none;
+    color: #f50707;
+}
+
+.person article img {
+    margin-top: 5px;
+    height: 400px; /* Ajuste a altura conforme necessário */
+    width: auto; /* Permite que a largura seja ajustada automaticamente */
+    margin-right: 20px; /* Adiciona uma margem à direita da imagem */
+}
+
+.person article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.person article h3 {
+    margin-bottom: 10px; /* Adiciona uma margem abaixo do título */
+}
+
+.person article p {
+    margin: 10px;
+}
+
+footer .container{
+    background-color: black;
+    color: aliceblue;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer li{
+    display: inline;
+    padding: 10px;
+}
+
+footer img{
+    height: 30px;
+}
